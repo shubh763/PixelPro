@@ -1,0 +1,534 @@
+/* ************* Media Queries Tablets ****************** */
+@media only screen and (min-width:1170px) {
+	.teamSliderMob{display:none;}
+	.teamSlider{display:block;}	
+}
+@media only screen and (min-width:1024px) {
+	.ourSoluSliderMob{display:none;}
+	.solutionList{display:block;}
+	.industiresSliderMob{display:none;}
+	.mobileSlider{display:none;}
+.featureListIcon, .applicationKrypotWallet .colsBlockRow, .walletServiceOffer  .colsBlockRow, .topIconList.smartContractList, .smartContractListCols .container .detailListSeprator, .iconServiceOffer .container .icoServicesList   {display:block;}
+}
+@media only screen and (max-height:620px) {
+	.popupWrap{overflow-y:auto;}
+}
+@media only screen and (max-width: 1420px) {
+
+}
+@media only screen and (max-width: 1350px) {
+.bannerMoveBox{left:-140px;}	
+.whatBlockChainMove2{left:-90px;}
+.hireMoveBox1{right:-120px;}
+.hireMoveBox2{right:-40px;}
+.whatIsBlockChain{padding-top:40px;}
+
+}
+@media only screen and (max-width: 1270px) {
+.container{padding:0 15px;}
+.achieveBlockChain{padding:0;}
+.achieveBlockChain .rightBorderBox{padding:25px;}
+.rightBorderBox:before{left:0; right:0; top:0; bottom:0;}
+.bannerImg{min-height:850px;}
+.proofOfConcept .tabContentRight{padding-right:15px; padding-left:50px;}
+.industryTabSlider{margin-left:30px; position:relative;}
+.proofOfConcept:before{background-position:center top; height:150px;}
+.centerHeading{margin-bottom:40px;}
+.proofOfConcept .centerHeading{margin-top:-115px;}
+.mainBanner:after, #footer::before{background-position:center top; height:150px;}
+.videoPartLeft video{min-height:100%;}
+#footer{padding:50px 0 20px;}
+.footerMenu{margin-bottom:30px;}
+.homeBlogList .homeBlgImg{width:140px;}
+.homeBlogList .homeBlgDetails{padding-left:160px; padding-top:0; padding-bottom:0;}
+.homeBlogList li p{font-size:15px;}
+.commonRightBg{z-index:0 !important;}
+.benefitsNodeHosting .rightImgoffer{right:0;}
+}
+@media only screen and (max-width: 1169px) {
+.icoOffering .posContentRightImg{margin-left:15.5%;}
+.posContentImgLeft{left:0;}
+.bannerTextWrap h1, .bannerTextWrap .mainBannerText{font-size:95px;}
+.bannerTextWrap h1 span, .bannerTextWrap .mainBannerText span{font-size:60px;}
+#nav li a{padding:15px 20px;}
+.desktop.fixedHeader #nav li a{padding:12px 9px;}
+.contentRow .imgLeftPart{margin-right:40px;}
+.contentRow .imgRightPart{margin-left:40px;}
+.proofOfConcept li a{padding:50px 10px;}
+.bannerTextWrap p{font-size:30px;}
+.bannerTextWrap{width:55%;}
+.proofOfConcept li a{font-size:16px;}
+.teamSliderMob{display:block;}
+.teamSlider{display:none;}
+.ourTeam{padding:50px 30px;}
+.ourTeam .swiper-pagination-bullet-active, .ourSolutions .swiper-pagination-bullet-active{background:#3de9c9;}
+.ourSolutions .greenLightLeft{top:-80px; height:418px;}
+.bannerImg{min-height:750px;}
+.homeBlogList .homeBlgImg{width:100px;}
+.homeBlogList .homeBlgDetails{padding-left:110px;}
+.innerBanner:after, .contentRow:before, .contentRow:after{height:70px;}
+.innerBanner .bannerTextWrap h1{ font-size:85px;}
+.innerBanner .bannerTextWrap h1 span{font-size:55px;}
+.innerBanner{min-height:550px;}
+.innerBanner .bannerTextWrap{margin-top:190px;}
+.contentpart{padding-top:50px;}
+.walletFeatureWeOffer h2{margin-bottom:70px;}
+.whyPrivateSteps li:last-child .stepText{font-size:18px;}
+}
+
+@media only screen and (max-width:1023px) {
+/*Navigation*/
+.toggleMenu .mobileMenu{display:none;}
+#nav {display:none;position:absolute;left:0;right:0; top:100%; background:#002e8c;}
+#nav ul{background:#002e8c;}
+.toggleMenu, #nav .menuIcon {display:block;}
+#nav li {float:none;display:block;border:none;}
+#nav li a{border-top:1px solid rgba(255,255,255,0.35);}
+#nav li.parent {position:relative;}
+#nav li .menuIcon, #nav li li .menuIcon {width:46px; height:auto; background-color:#002d63; background-color: rgba(0, 45, 99, 0.5); background-image:url(../images/down-arrow.gif); background-repeat:no-repeat; background-position:center 15px; position:absolute;right:0;top:0;bottom:0;cursor:pointer;}
+#nav li .menuIcon.active, #nav li li .menuIcon.active {background-color:#002d63; background-color: rgba(1, 36, 78, 0.5);}
+#nav li > a:hover, #nav li.hover > a, #nav li.active > a, #nav li ul li a:hover, #nav li ul li > a.selected, #nav ul a:hover, .noJS #nav ul a:focus, #nav ul a.selected, #nav > li > a:hover, #nav > li.hover > a, #nav > li.focus > a {background-color:#fdd142;color: #333;}
+#nav ul {width:100%;display:none;position:static;transition:none;-webkit-transition:none;}
+.hasJS #nav ul{opacity:1;}
+#nav li ul li, #nav ul a {width:100%}
+#nav > li:hover > ul, #nav li li:hover > ul, #nav li li li:hover > ul {display:none;}
+#nav ul, #nav *:hover ul ul, #nav .hover ul ul, #nav .focus ul ul {margin-left:0;}
+#nav li a {padding:8px 15px;display:block;line-height:30px;font-size:17px;}
+#nav li ul li a {padding:10px 55px 10px 25px; display:block;line-height:21px; background:url(../images/right-arrow.gif) no-repeat 15px 15px;color:#fff;border-top:1px solid rgab(255,255,255,0.75);}
+#nav li ul li ul li a {padding-left:45px;background-position:33px center}
+#nav li ul li ul li ul li a {padding-left:60px;background-position:45px center}
+#nav > li > a:hover, #nav > li.hover > a, #nav > li.focus > a, #nav > .highlight > a {background-color:#3deaca;color: #333;}
+#nav li ul li a:hover, #nav li ul li > a.selected, #nav ul a:hover, .noJS #nav ul a:focus, #nav ul a.selected, #nav ul > .highlight > a {background-color:#3deaca;color: #333;}
+#backtotop{display:none !Important;}
+.mainNavigation, .headerRight{position:static;}
+.toggleMenu{padding:21px 0;}
+.toggleMenu,
+.toggleMenu::before,
+.toggleMenu::after,
+.toggleMenu.active .iconBar,
+.toggleMenu.active .iconBar:before,
+.toggleMenu.active .iconBar:after {
+	-webkit-transition: all .2s ease-in-out;
+	-moz-transition: all .2s ease-in-out;
+	-o-transition: all .2s ease-in-out;
+	transition: all .2s ease-in-out;
+}
+.toggleMenu .iconBar {
+	width: 34px;
+	margin: 0 0;
+	position: relative;
+	border-top: 4px solid #fff;
+	display: block;
+	height:15px;
+}
+.toggleMenu .iconBar:before,
+.toggleMenu .iconBar:after {
+	content: "";
+	display: block;
+	background: #fff;
+	height: 4px;
+	width: 34px;
+	position: absolute;
+	top: -13px;
+	-ms-transform: rotate(0deg);
+	-webkit-transform: rotate(0deg);
+	transform: rotate(0deg);
+	-ms-transform-origin: 13%;
+	-webkit-transform-origin: 13%;
+	transform-origin: 13%;
+}
+.toggleMenu .iconBar::after {
+  top: 5px;
+}
+.toggleMenu.active .iconBar {
+  border-top: 4px solid transparent;
+}
+.toggleMenu.active .iconBar:before {
+	-ms-transform: rotate(45deg);
+	-webkit-transform: rotate(45deg);
+	transform: rotate(45deg);
+}
+.toggleMenu.active .iconBar:after {
+	-ms-transform: rotate(-45deg);
+	-webkit-transform: rotate(-45deg);
+	transform: rotate(-45deg);
+}
+/*****************new css**************/
+.ourSoluSliderMob{display:block;}
+.solutionList{display:none;}
+.contentBlockPart{padding:40px 0;}
+.whitePaperBookImg{max-width:180px; bottom:-80px;}
+.commonBtn.floatBtnRight  {position:fixed; width:58px; height:58px; border-radius:50%; -webkit-border-radius:50%; bottom:60px; right:15px; top:auto; padding:0; box-shadow:0 0 15px rgba(0,0,0,0.35); webkit-box-shadow:0 0 15px rgba(0,0,0,0.35);}
+.commonBtn.floatBtnRight span:after, .commonBtn.floatBtnRight span:before{display:none;}
+.floatBtnRight span.btnWrap{padding:0;}
+.floatBtnRight i{height:58px; width:58px; font-size:36px; line-height:58px; background:#002a8e;}
+.floatBtnRight .btnText{display:none;}
+#footer:before{height:50px;}
+h2{font-size:34px;}
+.ourSolutions {margin-bottom:50px;}
+.bannerTextWrap{width:100%;}
+.bannerTextWrap h1 span, .bannerTextWrap .mainBannerText span{font-size:42px;}
+.bannerTextWrap h1, .bannerTextWrap .mainBannerText {font-size:75px;}
+.bannerTextWrap p{font-size:22px;}
+.bannerTextWrap p br{display:none;}
+.mainBanner .swiper-slide{min-height:auto;}
+.mainBanner .customPagination{margin-top:40px;}
+.mainBanner::after{height:100px; bottom:-1px;}
+.bannerImg{min-height:600px;}
+.bannerCaption{top:26%;}
+.mouseIconWrap, .ourSolutions .greenLightLeft{display:none;}
+.pcProtocol{padding-top:200px;}
+.paginationText br{display:none;}
+.newsAndBlog .homeNewsDetails:before{width:70px; height:70px; background-size:100% 100%;}
+.newsAndBlog .homeNewsDetails{padding:20px 100px 20px 20px;}
+.headerRight{padding-right:0;}
+.headerRightBtns{right:63px; top:22px;}
+.headerLeft{padding-top:20px;}
+.menuPart{margin-top:35px;}
+.headerSearch.active{height:60px; padding:10px 0;}
+.searchFieldWrap input[type="text"]{height:40px;}
+.ipadShow{display:block;}
+.homeNews{display:none;}
+.ipadShow .homeNews{display:block;}
+.homeNewsText{display:block;}
+.homeBlogList .homeBlgImg{display:block;}
+.homeBlogList .homeBlgDetails{padding-left:120px;}
+.newsAndBlog .width50p{width:100%;}
+.homeBlogList{margin:0 -15px;}
+.homeBlogList li{width:50%; padding:0 15px; float:left;}
+#header{z-index:1111;}
+.ourSoluSliderMob{padding:0 100px;}
+.ourSoluSliderMob .swiper-container{overflow:visible;}
+.proofConceptDetails.customTab .tabAccTitle a {display:none;}
+.industiresSliderMob a{padding:15px 10px;}
+.industiresSliderMob{margin-bottom:-100px;}
+.proofOfConcept .tabNavigation{display:none;}
+.contentRow{padding:40px 0 40px;}
+.featureIconBox:before{right:-10px;}
+.mobileSlider{display:block; margin-top:30px;}
+.featureListIcon, .applicationKrypotWallet .colsBlockRow,.walletServiceOffer  .colsBlockRow, .iconServiceOffer .container .icoServicesList  {display:none;}
+.featureIconBox{padding:0 20px;}
+.featureText br{display:none;}
+.walletFeatureWeOffer h2{margin-bottom:30px;}
+.exchangeSoftWhatWeOffer .width40p{width:50%;}
+.kryptoWalletAppBox{padding:0 20px;}
+.contentpart .bigFontTitle{font-size:20px;}
+.commonLeftBg, .cruveBgBig, .cruveBgSmall, .commonRightBg{display:none;}
+.walletServiceOffer .serviceOfferBox::before, .chooseNodeHosting .featureIconBox:before{right:-10px;}
+.walletServiceOffer h2{text-align:center;}
+.whyPrivateSteps li{width:25%;}
+.whyPrivateSteps li{margin-top:0 !important;}
+.whyPrivateSteps li:nth-child(5), .whyPrivateSteps li:nth-child(6), .whyPrivateSteps li:nth-child(7){float:right; margin-top:100px !important;}
+.whyPrivateSteps li .stepBox:before{transform:rotate(0deg) !important; -webkit-transform:rotate(0deg) !important; top:25px !Important;}
+.whyPrivateSteps li:nth-child(5) .stepBox:before, .whyPrivateSteps li:nth-child(6) .stepBox:before, .whyPrivateSteps li:nth-child(7) .stepBox:before {left:auto; right:72%;}
+.whyPrivateSteps li:nth-child(4)  .stepBox:before{display:none;}
+.smartContractIntro .colsBlock {margin-bottom:20px;}
+.smartContractIntro .colsBlock:last-child{margin-bottom:0;}
+.smartContractIconWrap{position:relative;}
+.smartContractIconWrap:before{background:#cae8e2; height:55px; width:1px; content:""; position:absolute; right:-10px; top:50%; margin-top:-27px;}
+.topIconList.smartContractList, .smartContractListCols .container .detailListSeprator {display:none;}
+.detailListSepratorWrap{position:relative; padding:30px 0 0;}
+.detailListSepratorWrap:before{background:#cae8e2; height:80%; width:1px; content:""; position:absolute; right:-10px; top:10%;}
+.whyPrivateSteps li:nth-child(4){position:relative;}
+.whyPrivateSteps li:nth-child(4):after{height:0; width:2px; content:""; position:absolute; top:100%; background:#024595; left:50%; margin-left:-1px;}
+.stepsRow.activeBlock li:nth-child(4):after{height:45px;}
+.whyPrivateSteps li:nth-child(4):after{transition:all 0.3s 2.1s ease-out; -webkit-transition:all 0.3s 2.1s ease-out;}
+.whyPrivateSteps .topIcons{width:100px; line-height:1.2;}
+.whyPrivateSteps{margin:0 -20px 0;}
+.whyPrivateSteps .topIcons::after{bottom:-12px;}
+.icoServicesListWrap{position:relative; margin:35px 0;}
+.icoServicesListWrap{padding-left:80px;}
+.icoServicesListWrap:before{background:rgba(255,255,255,0.5); height:100px; width:1px; content:""; position:absolute; right:-10px; top:10px;}
+
+}
+@media only screen and (max-width: 979px) {
+.movingBox, .posContentImgLeft, .posContentRightImg > img, .mainBanner:before, .whyKryptoresearch .posContentImgRight, .mouseIcon{display:none;}
+.bannerTextWrap{width:100%;}
+.width60p{width:100%;}
+.whatIsBlockChain{padding-top:40px;}
+.padTopContent, .xfinXdcDevelopment{padding-top:0;}
+.intialCoinIntro:before{right:-15px; top:0;}
+.icoOffering .bgPositionImg{z-index:1; left:auto; right:15px; margin-left:0; bottom:auto; top:80px;}
+.icoOffering .posContentRightImg{position:static;}
+.xfinXdcDevelopment .rightbackgroundBox{width:100%; left:0; margin-left:0; position:relative; z-index:11; min-height:300px; background:none;}
+.xfinXdcDevelopment .rightbackgroundBox:before{left:-15px; right:-15px; background:#002e8c url(../images/map-bg.jpg) center no-repeat;; content:""; position:absolute; height:100%; z-index:-1;}
+.xfinXdcDevelopment{margin-top:0;}
+.sateliteImg{left:50%; margin-left:-100px;}
+.xfinXdcDevelopment .oneThirdContentLeft{padding:40px 0; margin-bottom:0;}
+.xfinXdcDevelopment{padding-bottom:0;}
+.whyKryptoresearch .blueRoundBox, .oneThirdContentLeft{width:100%;}
+#footer{padding-top:80px; background-size:cover;}
+.footerLogo{display:none;}
+.footerCopyRight{text-align:center; width:100%;}
+.bannerTextWrap p br{display:none;}
+.getInTouch h2 span{display:inline-block;}
+.getInTouch {padding:50px 0 10px;}
+.hireDeveloper:before{display:none;}
+.hireDeveloper{margin-top:0; text-align:left;}
+.footerCopyRight{margin-top:8px;}
+h2{font-size:30px;}
+.bigFontTitle, h3{font-size:20px; line-height:1.4;}
+.lightText{font-size:32px;}
+.icoOffering {padding-bottom:0;}
+.achieveBlockChain .rightBorderBox{padding:25px 0 0; border-top:1px solid #cdcdcd;}
+.rightBorderBox::before{display:none;}
+.intialCoinIntro, .whyKryptoresearch{padding:40px 0 40px 0;}
+.intialCoinIntro{padding-right:250px;}
+.popupWrapInnerWrap{padding:10px; margin:4% 10px !Important;}
+.popupformsWrap{padding-right:0; border-right:0 none; border-bottom:1px solid #e5e5e5; padding-bottom:25px; margin-bottom:25px;}
+.timeSlotSelectWrap{padding-left:0;}
+.schduleCall .popupWrapInnerWrap{padding:0;}
+.callFormsDetailWrap .feildCol{width:50%;}
+.bannerTextWrap .commonBtn {display:none;}
+.bannerTextWrap p.bannerBoldText{display:block;}
+.bannerRightImg{position:relative; margin-left:0; transform:translateX(-60%); -webkit-transform:translateX(-60%); margin-right:0; left:50%; bottom:-30px; max-width:500px;}
+.bannerCaption .container{height:auto;}
+.contentBlockPart h2 span:after{display:none;}
+.footerSocialIcons{position:static; transform:none; -webkit-transform:none;}
+/********************new Respsonsive**************/
+.customTab .tabNavigation{display:none;}
+.customTab .tabAccTitle{display:block;}
+.width50p{width:50%;}
+.customTabContent{padding:20px 0;}
+.proofConceptDetails.customTab{margin-bottom:0; padding-bottom:0; padding-top:50px;}
+.proofOfConcept .centerHeading{margin-top:-130px; margin-bottom:0;}
+.proofOfConcept::before{height:50px;}
+.ourSolutions {margin-bottom:50px;}
+body, button, input, select, textarea, ul.bulletText li{font-size:15px;}
+.contentBlockPart h3{font-size:20px;}
+.videoCaption p{display:none;}
+.pcProtocol{padding-top:120px;}
+.centerHeading p{font-size:18px;}
+.bannerImg{min-height:650px;}
+.whitePapers .rightImg{display:none;}
+.teamImgbox{width:150px; height:150px;}
+.innerBanner .bannerTextWrap h1{ font-size:75px;}
+.innerBanner .bannerTextWrap h1 span{font-size:45px;}
+.innerBanner{min-height:500px;}
+.walletFeatureWeOffer h2{margin-bottom:40px;}
+.featureListIcon{margin-bottom:0;}
+.contentpart h2{margin-bottom:25px;}
+.innerBanner:after, .contentRow:before, .contentRow:after{height:40px;}
+.typeCryptoWallets .width35p, .typeCryptoWallets .width30p, .icoDevelopmentIntro  .width35p,  .width35p,  .width30p, .width80p , .width20p{width:100%;}
+.rightImgoffer{margin:20px 0;}
+.mrgB60{margin-bottom:30px;}
+.animatedRightImg{margin:0 auto;}
+.whatSmartContactList li{padding-left:180px;}
+.whatSmartContactList li p:before, .whatSmartContactList li p:after{display:none;}
+
+}
+@media only screen and (max-width:800px) {
+.width50p {width:100%;}
+.colsBlock {margin-bottom:20px;}
+.colsBlock:last-child{margin-bottom:0;}
+.industryTabSlider{margin-bottom:30px; margin-left:0;}
+.proofOfConcept .tabContentRight{padding:0 25px;}
+.sliderCurvenavPrev{left:0; z-index:1111; border-radius:0 20px 20px 0; -webkit-border-radius:0 20px 20px 0;}
+.sliderCurvenavNext{right:0; z-index:1111; border-radius:20px 0 0 20px; -webkit-border-radius:20px 0 0 20px;}
+.videoCaption p{display:block;}
+#footer:before{height:50px;}
+#footer{text-align:center;}
+.footerLinks{display:inline-block;}
+.copyRightText, .footerSocialIcons{float:none;}
+.footerMenu{margin-bottom:15px;}
+.copyRightText{margin-bottom:10px;}
+.homeBlogList li{width:100%; margin-bottom:20px;}
+.footerLinks li{display:inline-block; float:none; margin-bottom:5px;}
+.innerBanner .bannerTextWrap h1{ font-size:60px;}
+.innerBanner .bannerTextWrap h1 span{font-size:35px;}
+.innerBanner{min-height:450px;}
+.contentRow  p:last-child{margin-bottom:0;}
+.mobileSlider{padding:0 90px;}
+.width40p{width:100% !important;}
+.whatSmartContactList{text-align:center;}
+.whatSmartContactList .whatSmartIcon{position:static; display:inline-block; margin-bottom:20px; margin-top:0;}
+.whatSmartContactList li{padding-left:0;}
+.whatSmartContract .bdrBlockGap{padding-top:0 !important; padding-bottom:0 !important; text-align:center;}
+.benefitsSmartContract .benefitsList{margin-bottom:0;}
+}
+@media only screen and (max-width: 767px) {
+h3, h2{margin-bottom:20px;}
+h2{font-size:28px;}
+.bannerTextWrap h1 span, .bannerTextWrap .mainBannerText span{font-size:35px;}
+.bannerTextWrap h1, .bannerTextWrap .mainBannerText{font-size:60px; margin-bottom:0;}
+.bannerBoldText{font-size:22px;}
+.bigFontTitle, h3{font-size:18px; line-height:1.4;}
+body, button, input, select, textarea, .feildCol label{font-size:15px; line-height:1.4;}
+.lightText{font-size:30px; line-height:36px;}
+.getInTouchFormOuter{padding:0;}
+.icoOffering .bgPositionImg{display:none;}
+.intialCoinIntro{padding-right:0;}
+.whyKryptoresearch .blueRoundBox{padding:30px 20px 10px;}
+.commonBtn{padding:7px 25px; font-size:16px;} 
+.getInTouch h2{margin-top:-35px;}
+.captachWrap{margin-top:10px;}
+.bannerTextWrap .commonBtn{margin-top:0;}
+.popupformsWrap .feildCol label{top:19px;}
+.schduleCall .popupContent{padding:30px 15px;}
+.toggleMenu{padding:21px 0;}
+.innerBanner .bannerRightImg{margin-left:0;}
+/***************newCSS**************/
+.getInTouchFormOuter .feildCol{width:100%;}
+.feildCol input[type="text"], .feildCol select, .feildCol textarea{height:44px;}
+.whitePaperFormWrap{max-width:100%;}
+.whitePaperBookImg{max-width:108px; bottom:80px;}
+.bannerTextWrap p{margin-left:0;}
+.mainBanner .customPagination{margin-top:60px;}
+.mainBanner .swiper-button-next, .mainBanner .swiper-button-prev{text-align:left;}
+.mainBanner .customPagination{margin-left:-1%; margin-right:-1%;}
+.bannerImg{min-height:600px;}
+.searchBtnIcon{padding:0 5px;}
+.proofOfConcept .rightContentWrap{display:none;}
+.industiresSliderMob{padding:0 50px;}
+.commonRightBg{display:none;}
+.contentpart .bigFontTitle{font-size:18px;}
+.bulletText.twoCols li, .benefitsSmartContract .benefitsList li{width:100%;}
+.contentpart .bigFontTitle br{display:none;}
+.whyPrivateSteps li{width:33%;}
+.whyPrivateSteps li:nth-child(4){float:right; margin-top:80px !important;}
+.whyPrivateSteps li:nth-child(5){clear:right;}
+.whyPrivateSteps li:nth-child(3) .stepBox:before{display:none;}
+.whyPrivateSteps li:nth-child(3){position:relative;}
+.whyPrivateSteps li:nth-child(3):after{height:0; width:2px; content:""; position:absolute; top:100%; background:#024595; left:50%; margin-left:-1px;}
+.stepsRow.activeBlock li:nth-child(3):after{height:45px;}
+.whyPrivateSteps li:nth-child(3):after{transition:all 0.3s 1.2s ease-out; -webkit-transition:all 0.3s 1.2s ease-out;}
+.whyPrivateSteps{margin:0;}
+.whyPrivateSteps{padding-top:30px;}
+.howCanWeHelp ul{margin-bottom:0;}
+}
+@media only screen and (max-width:639px) {
+.feildCol{width:100%;}
+.whyKryptoresearch .blueRoundBox{padding:0; background:none;}
+.footerLogo{float:none; text-align:center; margin-bottom:15px;}
+.footerCopyRight{float:none; text-align:center; line-height:1.3;}
+.mainContentArea, .hireDeveloper {/*text-align:center;*/}
+.feildCol label{text-align:left; display:block;}
+.captachWrap .feildCol{text-align:left;}
+.captachWrap .feildCol label{display:inline-block;}
+.bannerTextWrap h1 span, .bannerTextWrap .mainBannerText span{font-size:24px;}
+.bannerTextWrap h1, .bannerTextWrap .mainBannerText{font-size:45px; margin-bottom:0;}
+.bannerBoldText{font-size:18px;}
+.schduleCall h2{font-size:26px; padding:20px 15px 25px;}
+.schduleCall .closePopBtn{text-shadow:0 0 10px rgba(0,0,0,0.35); -webkit-text-shadow:0 0 10px rgba(0,0,0,0.35);}
+.callFormsDetailWrap .feildCol{width:100%;}
+.fixTimeFeilds label{font-size:14px;}
+.activeBlock .getInTouchFormWrap:after, .activeBlock .getInTouchFormInner:after, .activeBlock .getInTouchFormInner:before, .activeBlock .getInTouchFormWrap:before{display:none;}
+.roundBullet{display:none;}
+.getInTouch h2 span{padding:0; text-align:left; display:block;}
+.getInTouchFormWrap{padding:20px 0 0;}
+.commonBtn:after, .commonBtn:before{display:none;}
+.getInTouch .feildInput .fa{display:none;}
+.feildCol input[type="text"], .feildCol select, .feildCol textarea{padding-left:15px;}
+.contentRow .imgLeftPart, .contentRow .imgRightPart{max-width:100%; float:none; text-align:center; margin-bottom:30px;}
+.contentRow .imgLeftPart img, .contentRow .imgRightPart img{max-height:250px; width:auto;}
+.mainBanner .customPagination{display:none;}
+.searchBtnIcon{padding:0 5px;}
+.bannerImg{min-height:450px;}
+.bannerCaption{top:32%;}
+.bannerTextWrap p{font-size:20px;}	
+.getInTouch .feildCol label{display:none;}
+.getInTouch .captachWrap label{display:inline-block;}
+.getInTouch ::-webkit-input-placeholder {color:#222222; opacity:1;}
+.getInTouch ::-moz-placeholder {color:#222222; opacity:1;}
+.getInTouch :-ms-input-placeholder {color:#222222; opacity:1;}
+.getInTouch :-moz-placeholder {color:#222222; opacity:1;}
+.feildCol{margin-bottom:15px;}
+.getInTouch{padding-bottom:40px;}
+#footer{padding-top:40px;}
+.pcProtocolImgWrap{margin-bottom:20px;}
+.pcProtocol .leftImg{display:none;}
+.pcProtocol {text-align:center;}
+.centerHeading{margin-bottom:30px;}
+.whitePapers p{font-size:18px;}
+.commonBtn.floatBtnRights{bottom:30px; right:5px;}
+.mainBannerWrap .sliderNavigation{position:absolute; right:-20px; bottom:-150px;}
+.ourSoluSliderMob{padding:0 150px;}
+.innerBanner .bannerTextWrap h1{ font-size:50px; margin-bottom:10px;}
+.innerBanner .bannerTextWrap h1 span{font-size:30px;}
+.innerBanner{min-height:400px;}
+.innerBanner .bannerTextWrap{margin-top:180px;}
+.innerBanner:after, .contentRow:before, .contentRow:after{height:25px;}
+}
+@media only screen and (max-width:599px) {
+.thankYouMessagePopup h2{font-size:26px;}
+.thankYouMessagePopup p{font-size:18px;}
+.commonBtn{width:100%; text-align:center;}
+/****************new Responsive CSS************/
+.videoCaption p{display:none;}
+.commonBtn.talkExperts{width:auto;}
+.mainBanner:after{height:60px;}
+.bannerImg{min-height:400px;}
+.bannerCaption{top:35%;}
+.searchFieldWrap input[type="text"]{font-size:17px;}
+.searchFieldWrap .searchBtn{font-size:22px;}
+.searchFieldWrap input[type="text"]{height:30px; padding:0;}
+.headerSearch.active{height:50px;}
+.whitePapers p{padding-right:100px;}
+.commonBtn.floatBtnRight{bottom:10px; right:5px;}
+.mainBannerWrap .sliderNavigation{bottom:-100px; right:-20px;}
+.innerBanner .bannerTextWrap h1{ font-size:45px; margin-bottom:10px;}
+.innerBanner .bannerTextWrap h1 span{font-size:25px;}
+}
+@media only screen and (max-width:479px) {
+h3, h2{margin-bottom:20px;}
+h2{font-size:24px;}
+.captachWrap {width:100%;}
+.btnRight{float:left; width:100%;}
+.whatIsBlockChain{padding-top:25px;}
+.fixTimingRow .fixTimeFeilds{width:50%; margin-bottom:6px;}
+.timeSlotTitle{padding-right:0;}
+.timeSlotTitle .timeAndDateWrap{position:relative; margin-bottom:10px;} 
+.dateSelectionWrap li a{font-size:13px;}
+.dateSelectionWrap li a span.date, .dateSelectionWrap li.active a span.date{font-size:28px;}
+.popupContent .captachWrap {margin-bottom:15px;}
+.bannerRightImg{bottom:-10px;}
+.headerRight .talkExperts span:after{display:none;}
+.headerRight .talkExperts{padding:10px;}
+.headerRightBtns{right:59px;}
+.pcProtocolImgWrap{width:100%;}
+.homeBlogList .homeBlgImg{width:100px;}
+.homeBlogList .homeBlgDetails{padding-left:110px;}
+.contentBlockPart h3{font-size:16px;}
+.originalImg{display:block;}
+.pcProtocolImgWrap{display:none;}
+.mainBannerWrap .sliderNavigation{bottom:-80px;right:-20px;}
+.ourSoluSliderMob{padding:0 80px;}
+.innerBanner .bannerTextWrap h1{ font-size:40px; margin-bottom:10px;}
+.innerBanner .bannerTextWrap h1 span{font-size:22px;}
+.innerBanner{min-height:350px;}
+.innerBanner .bannerTextWrap{margin-top:160px;}
+.breadCum li{font-size:15px;}
+.mobileSlider{padding:0 70px;}
+.featureIconBox{padding:0 10px;}
+.whyPrivateSteps li{width:50%;}
+.whyPrivateSteps li:nth-child(3), .whyPrivateSteps li:nth-child(4){float:right; margin-top:100px !important;}
+.whyPrivateSteps li:nth-child(5){clear:right;}
+.whyPrivateSteps li:nth-child(5), .whyPrivateSteps li:nth-child(6){float:left;}
+.whyPrivateSteps{margin:0;}
+.whyPrivateSteps li:nth-child(2) .stepBox:before, .whyPrivateSteps li:nth-child(4) .stepBox:before, .whyPrivateSteps li:nth-child(6) .stepBox:before{display:none;}
+.whyPrivateSteps li:nth-child(3) .stepBox:before, .whyPrivateSteps li:nth-child(5) .stepBox:before{display:block;}
+.whyPrivateSteps li:nth-child(3) .stepBox:before {left:auto; right:72%;}
+.whyPrivateSteps li:nth-child(5) .stepBox:before {left:72%; right:auto;}
+.stepsRow.activeBlock li:nth-child(3):after{display:none;}
+.whyPrivateSteps li:nth-child(7){margin-top:60px !important;}
+.whyPrivateSteps li:nth-child(2), .whyPrivateSteps li:nth-child(6){position:relative;}
+.whyPrivateSteps li:nth-child(2):after, .whyPrivateSteps li:nth-child(6):after{height:0; width:2px; content:""; position:absolute; top:100%; background:#024595; left:50%; margin-left:-1px;}
+.stepsRow.activeBlock li:nth-child(2):after, .stepsRow.activeBlock li:nth-child(6):after{height:45px;}
+.whyPrivateSteps li:nth-child(2):after{transition:all 0.3s 0.9s ease-out; -webkit-transition:all 0.3s 0.9s ease-out;}
+.whyPrivateSteps li:nth-child(6):after{transition:all 0.3s 3.3s ease-out; -webkit-transition:all 0.3s 3.3s ease-out;}
+.icoServicesListWrap{padding-left:0; text-align:center;}
+.icoServicesListWrap .icoServiceIcon{position:static; display:inline-block; margin-bottom:10px;}
+.icoServicesListWrap:before{height:150px;}
+}
+@media only screen and (max-width:400px) {
+.homeBlogList .homeBlgImg{width:80px;}
+.homeBlogList .homeBlgDetails{padding-left:90px;}	
+.floatBtnRight i{height:45px; width:45px; font-size:30px; line-height:45px;}
+.commonBtn.floatBtnRight{height:45px; width:45px;}
+.innerBanner .bannerTextWrap h1{ font-size:35px; margin-bottom:10px;}
+.innerBanner .bannerTextWrap h1 span{font-size:22px;}
+}
+@media only screen and (max-width:359px) {
+	.innerBanner .bannerTextWrap h1{ font-size:30px; margin-bottom:10px;}
+.innerBanner .bannerTextWrap h1 span{font-size:20px;}
+}
